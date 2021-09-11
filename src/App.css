@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  
+}
+
+body{
+  background: #3DFAC1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100vw;
+
+}
+
+div.card{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+padding: 15px;
+width: 280px;
+height: 380px;
+background: #FFFFFF;
+box-shadow: 8px 8px 40px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(4px);
+border-radius: 20px 150px 20px 20px;
+}
+
+input{
+width: 180px;
+height: 35px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 10px;
+}
+label{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+margin-top:10px;
+color: rgba(0, 0, 0, 0.5);
+}
+button{
+width:150px;
+height:35px;
+border:#3DFAC1;
+background: linear-gradient(128.69deg, rgba(255, 184, 0, 0.75) 22.57%, #3DFAC1 85.98%);
+border-radius: 60px;
+cursor: pointer;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+letter-spacing: 0.15em;
+
+color: #FFFFFF;
+transition: width 0.5s;
+}
+button:hover{
+width:155px;
+background: linear-gradient(128.69deg, #3DFAC1 22.57%, rgba(255, 184, 0, 0.75) 85.98%);
+}
+div.row{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+div.result{
+  margin-top: 35px;
+}
+
+div.result > h2 {
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 34px;
+line-height: 96px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+h1{
+  color: white
+}
+input:focus,
+button:focus {
+    outline: none;
+}
